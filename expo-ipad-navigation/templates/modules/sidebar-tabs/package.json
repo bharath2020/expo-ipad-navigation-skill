@@ -1,0 +1,7 @@
+{
+  "name": "sidebar-tabs",
+  "version": "1.0.0",
+  "description": "A sidebar-adaptable SwiftUI TabView with sidebar-only sections, for @expo/ui",
+  "main": "index.tsx",
+  "private": true
+}

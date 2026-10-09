@@ -1,0 +1,23 @@
+{
+  "name": "expo-ipad-navigation-typecheck",
+  "private": true,
+  "description": "Type-checks the skill's TypeScript templates against the Expo SDK 57 package set.",
+  "scripts": {
+    "typecheck": "node copy-templates.js && tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~57.0.16",
+    "@expo/ui": "~57.0.22",
+    "expo": "~57.0.27",
+    "expo-router": "~57.0.25",
+    "expo-splash-screen": "~57.0.9",
+    "expo-symbols": "~57.0.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  }
+}
