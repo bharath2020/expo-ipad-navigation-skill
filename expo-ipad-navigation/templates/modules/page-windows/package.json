@@ -1,0 +1,7 @@
+{
+  "name": "page-windows",
+  "version": "1.0.0",
+  "description": "Opens a page of the app in its own iPad window",
+  "main": "index.ts",
+  "private": true
+}
